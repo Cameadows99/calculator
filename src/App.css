@@ -1,38 +1,34 @@
-.App {
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.del-btn {
+  background-color:  rgba(202, 19, 19, 0.582);
+}
+.calc-display {
+  margin-top: 60px;
+  border: black;
+  border-style: groove;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 30px;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-display {
+  position: relative;
+  padding: 40px 40px 40px 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.op-btn {
+  padding: 0px 5px 19px 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.equals-btn {
+  height: 27px;
+  width: 40px;
+  font-stretch: expanded;
+  background: rgba(29, 245, 29, 0.493);
 }
